@@ -1,0 +1,16 @@
+@import "@fontsource/alegreya-sans";
+@import "@fontsource/alegreya-sans/300.css";
+@import "@fontsource/alegreya-sans/700.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Alegreya Sans';
+}
+
+.jc-sb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
