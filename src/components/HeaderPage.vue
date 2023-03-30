@@ -103,5 +103,9 @@ export default {
             }
         }
     }
+
+    @media (max-width : 1400px) {
+        padding : 16px 40px;
+    }
 }
 </style>
