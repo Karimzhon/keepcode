@@ -20,7 +20,7 @@
                                  v-model="select_date" :enable-time-picker="false"></vue-date-picker>
             </div>
         </div>
-        <div class="add-elem">добавить документ</div>
+        <div class="add-elem" @click="openModal()">добавить документ</div>
     </div>
 </template>
 
@@ -79,6 +79,9 @@ export default {
     methods: {
         filter() {
             this.$emit("filter", this.filter_date)
+        },
+        openModal() {
+            document.getElementById('modal').style.display = 'flex';
         }
     }
 }
@@ -123,5 +126,6 @@ export default {
     background-color : #ffbd27;
     color            : #ffffff;
     border-radius    : 10px;
+    cursor           : pointer;
 }
 </style>
