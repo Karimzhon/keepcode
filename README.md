@@ -1,7 +1,10 @@
 # KEEPCODE
 
 ## Project Setup
+#
 
+### Для локального запуска нужно 
+# NEED NODE VERSION >=16.0.0 
 ```sh
 npm install
 ```
